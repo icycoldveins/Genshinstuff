@@ -3,11 +3,11 @@ import pandas as pd
 import datetime
 import json
 
-reddit = praw.Reddit(client_id='OgWz7Lis1bnqRYNczu9KTQ',
-                     client_secret='F1DvNNNS5exhlrkniOHYB_fGEWhDuw',
-                     user_agent='u/icycold111',
-                     username='icycold111',
-                     password='nasigoreng')
+reddit = praw.Reddit(client_id='your_client_id',
+                     client_secret='your_client_secret',
+                     user_agent='your_user_agent',
+                     username='your_username',
+                     password='your_password')
 # now get top 10 post today of subreddit Genshin
 subreddit = reddit.subreddit('Genshin_Impact')
 
